@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['wesharedjango.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic',
     'crispy_forms',
     'users.apps.UsersConfig',
     'blog.apps.BlogConfig',
